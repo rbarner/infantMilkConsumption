@@ -43,7 +43,7 @@ library("devtools")
 You will then need to download the R package "infantMilkConsumption" using the following lines:
 
 ```
-install.github("rbarner/infantMilkConsumption")
+install_github("rbarner/infantMilkConsumption")
 library("infantMilkConsumption")
 ```
 
