@@ -43,11 +43,12 @@ library("devtools")
 You will then need to download the R package "infantMilkConsumption" using the following lines:
 
 ```
-install.packages("rbarner/infantMilkConsumption")
+install.github("rbarner/infantMilkConsumption")
 library("infantMilkConsumption")
 ```
 
-## Demo
+## Demo 
+(The runtime of each of these functions should be <30 seconds each.)
 
 1. First we want to determine if there are any differences in the general characteristics of the infants who are either fed solely breastmilk (BF), traditional formula (TF) or lactose-reduced formula with added sugar (ASF). To do this run the following command:
 ```
