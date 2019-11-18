@@ -9,7 +9,7 @@ This function will output the a boxplot of means of a specified taxonomic group 
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-plot_taxa_milkType_association <- function(taxaFile = phylumTaxa,variable = "k__Bacteria.p__Actinobacteria",variableName = "Logged Abundance of Actinobacteria")
+plot_taxa_milkType_association(taxaFile = phylumTaxa,variable = "k__Bacteria.p__Actinobacteria",variableName = "Logged Abundance of Actinobacteria")
 
 }
 %- maybe also 'usage' for other objects documented here.
