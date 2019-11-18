@@ -1,0 +1,15 @@
+Package: infantMilkConsumption
+Type: Package
+Title: Create statistical tables and plots used in manuscript "Formula with Added Sugars Significantly Alters Gut Microbiota and Cognitive Development in Hispanic Infants"
+Version: 0.1.0
+Date: 2019-11-14
+Author: Roshonda B. Jones
+Maintainer: Roshonda B. Jones <rosjones@chla.usc.edu>
+Description: This package contains functions to reproduce the statistical analysis and plots used to determine the associations of milk consumption type at 6 months of age with various outcome including 6-month microbial composition, prediction microbial function and developmental/somatic growth measures at 24 months of age.
+License: GPL-3
+LazyData: true
+Imports:data.table,ggplot2,ggsignif,phyloseq,dplyr,stringr,readr
+Depends: R (>= 3.5.0),data.table,ggplot2,ggsignif,phyloseq,dplyr,stringr,readr
+RoxygenNote: 7.0.0
+	
+	

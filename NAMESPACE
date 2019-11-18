@@ -1,0 +1,7 @@
+exportPattern("^[[:alpha:]]+")
+import(data.table)
+import(ggplot2)
+import(ggsignif)
+import(phyloseq)
+import(dplyr)
+import(stringr)
